@@ -1,0 +1,66 @@
+body {
+
+background-color: #6A869A;
+font-family: 'Kameron', serif;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+
+.classique {
+margin-top: 5%;
+display: flex;
+justify-content: center;
+border : solid 2px black 
+}
+
+.catalogue {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+     border : solid 2px black 
+    }
+    
+.coverManga {
+    height: 50vh;
+    width: auto;
+   
+}
+
+
+.parent {
+ 
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border: white solid 4px;
+     
+    
+}
+
+.parent2 {
+ 
+    height: 100%;
+    width: 24%;
+    text-align: center;
+    border: white solid 4px;
+     
+    
+}
+.emprunt{
+
+    width: 10vw ;
+    height: 3vh;
+    color: white;
+    background-color: midnightblue;
+    border-radius:  15px; 
+}
+
+.emprunt:hover{
+    background-color: grey;
+    color: blue;
+    transform: translateY(-2px);
+    transition-duration: 0.5s;
+}

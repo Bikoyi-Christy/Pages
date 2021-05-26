@@ -1,0 +1,256 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    padding: 0;
+    margin: 0;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+li { 
+    list-style-type: none;
+
+}
+
+h2 {
+
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/* ******************************************************NAVBAR********************************************************************************* */
+
+nav {
+
+    overflow: hidden;
+    background-color: rgb(143, 126, 31);
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+
+}
+
+header li {
+
+    float: right;
+    font-size: 1.2em;
+
+    
+}
+
+header li a {
+
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+
+}
+
+#logo {
+
+    font-weight: bold;
+    float: left;
+}
+
+/* ***************************** IMAGE PRINCIPALE **************************** */
+
+#imagePrincipale {
+
+    padding-top: 60px;
+    background: url(media/image_processing20200325-8980-j7sdtr.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+
+}
+h1{    
+    font-family: fantasy;
+    color: antiquewhite;
+    font-size: 5em;
+    margin-top: 110px;
+    text-align: center;
+    text-shadow: 10px 8px 4px rgb(73, 73, 73);
+
+}
+
+#premierTRAIT {
+
+    height: 1px;
+    width: 75%;
+    margin: -3px auto;
+    background-color: antiquewhite;
+    text-align: center;
+    size: 100px;
+    text-shadow: 10px 8px 4px rgb(73, 73, 73);
+}
+h3{
+    font-family: fantasy;
+    color: antiquewhite;
+    font-size: 5em;
+    margin-top: 50px;
+    text-align: center;
+    text-shadow: 10px 8px 4px rgb(73, 73, 73);
+}
+
+/* ************** PRESENTATION ****************** */
+
+#présentation {
+
+    background-color:rgb(143, 126, 31);
+    padding: 10px 0px 100px 0px;
+    opacity: 0.8;
+}
+
+#textIntro {
+    color: antiquewhite;
+    padding: 0px 20%;
+}
+#accueil {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+
+}
+
+.imageaccueil h4 {
+
+text-align: center;
+font-size: 1.8em;
+margin: 15px;
+font-weight: 300;
+}
+.imageaccueil img {
+
+    border-radius: 10px;
+    box-shadow: 5px 8px 5px 4px rgb(73, 73, 73);
+}
+
+.imageaccueil img:hover {
+
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.8s ease-in-out;
+}
+
+/* ****************** CLIENT *******************  */
+
+#client {
+    height: 1400px;
+    background-color: rgb(128, 102, 63);
+    padding: 1px 2%;
+}
+
+#client h2 {
+
+    padding-top: 60px;
+
+}
+
+/* #coin-informatique {
+
+    background: url(media/coin\ informatique.JPG);
+}
+#coin-détente {
+
+    background: url(media/coin\ detente.jpg);
+}
+#coin-projet-de-groupe {
+
+    background: url(media/coin\ projet\ de\ groupe.jpg);
+}
+*/
+#client li {
+
+    margin: 65px 80px 0 80px;
+    /* height: 226px; */
+    width: 50%;
+    /*max-width: 400px;*/
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgb(73, 73, 73);
+}
+
+#client p {
+
+    height: 60px ;
+    width: 235px;
+    background-color: slategray;
+    float: right;
+    margin: 50px -180px 0 0;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px rgb(73, 73, 73);
+    border-radius: 10px;
+
+}
+
+#coin-détente {
+    float: right;
+}
+
+/* ******************* FOOTER **************  */
+
+footer {
+    background-color: rgb(145, 130, 49);
+    color: antiquewhite;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+
+}
+input, textarea, button {
+    border: none;
+    
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0; 
+    font: 1.2em;
+    border-radius: 8px;
+}
+textarea {
+    height: 120px;
+}
+button {
+    font-size: 1.5em;
+    background-color: lightgray;
+ }
+ button:hover {
+
+    background-color: lightsteelblue;
+    color: black;
+    cursor: pointer;
+ }
+
+ #deuxiemetrait {
+     height: 1px;
+     width: 75%;
+     background-color: antiquewhite;
+     margin: 60px auto;
+ }
+ #copyrighteticons {
+     /*
+     display: flex;
+     margin-bottom: 20px;
+     padding: 0 10% ;
+ */
+    font-size: 1.2em;
+}
+#icons a {
+    color: antiquewhite;
+}
